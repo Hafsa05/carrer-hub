@@ -12,7 +12,7 @@ const SingleCard = () => {
     const [fetchData,setFetchData]=useState([]);
 
     useEffect(()=>{
-        const loadData=loadsData.find(job=>job.id==loadId);
+        const loadData=loadsData.find(job=>job.id == loadId);
         setFetchData(loadData)
     },[])
     
