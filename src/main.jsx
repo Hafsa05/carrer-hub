@@ -9,7 +9,7 @@ import {
 } from "react-router-dom";
 import Header from './components/Header/Header';
 import Blog from './components/Blog/Blog';
-import Graph from './components/Graph/Graph';
+import Statistics from './components/Statistics/Statistics';
 import Home from './components/Home/Home';
 import SingleCard from './components/SingleCard/SingleCard';
 
@@ -31,7 +31,7 @@ const router= createBrowserRouter([
       },
       {
         path:'/graph',
-        element: <Graph></Graph>
+        element: <Statistics></Statistics>
       },
       {
         path:'/:loadId',
