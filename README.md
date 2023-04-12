@@ -10,7 +10,7 @@ This is a assignment no 9 of my programming hero web dedelopment course and I na
 - People can see job vacancy
 - Show job details
 - People can apply to their prefered jobs easily by clicking to the apply now button 
-
+- Also can see to their applied jos from the My Applied Jobs page
 
 
 ## Demo
